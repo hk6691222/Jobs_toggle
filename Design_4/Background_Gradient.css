@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+.design{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid white; */
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    /* margin: auto; // linear-gradient
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;  // linear-gradient */
+    background: conic-gradient( 
+        red 20%,
+        orange 20%,
+        orange 40%,
+        yellow 40%,
+        yellow 60%,
+        green 60%,
+        green 80%,
+        blue 80%
+    );
+}

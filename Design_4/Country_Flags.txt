@@ -1,0 +1,114 @@
+---------------------------UK FLAG------------------------------------------------------------------------
+.flexbox, .red, .white{
+    position: relative;
+    width: 220px;
+    height: 110px;
+    margin: auto;
+    margin-top: 200px;
+    background: linear-gradient(180deg, transparent, transparent 44px, #c8102e 44px, #c8102e 66px, transparent 66px, transparent 100%), linear-gradient(90deg, transparent, transparent 99px, #c8102e 99px, #c8102e 121px, transparent 121px, transparent 100%), linear-gradient(180deg, transparent, transparent 37px, #FFF 37px, #FFF 73px, transparent 73px, transparent 100%), linear-gradient(90deg, transparent, transparent 92px, #FFF 92px, #FFF 128px, transparent 128px, transparent 100%), linear-gradient(26.56505deg, transparent, transparent 91px, #c8102e 91px, #c8102e 98px, transparent 98px, transparent 100%) 0 0/110px 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 98px, #c8102e 98px, #c8102e 106px, transparent 106px, transparent 100%) 110px 0/110px 100% no-repeat, linear-gradient(26.56505deg, transparent, transparent 98px, #c8102e 98px, #c8102e 106px, transparent 106px, transparent 100%) 110px 55px/110px 100% no-repeat, linear-gradient(-26.56505deg, transparent, transparent 91px, #c8102e 91px, #c8102e 98px, transparent 98px, transparent 100%) 0 55px/110px 100% no-repeat, linear-gradient(27deg, transparent, transparent 87px, #FFF 87px, #FFF 109px, transparent 109px, transparent 100%), linear-gradient(153deg, transparent, transparent 87px, #FFF 87px, #FFF 109px, transparent 109px, transparent 100%), #012169;
+}
+-------------------------------------------UK FLAG---------------------------------------------------------------
+
+
+-------------------------------------------------CZECH REPUBLIC FLAG----------------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.country{
+    height: 200px;
+    width: 800px;
+    border-left: 300px solid blue;
+    border-top: 300px solid white;
+    border-bottom: 300px solid red;
+    border-right: 0px solid white;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* aspect-ratio: 2/3; */
+    /* background: linear-gradient(to right, white 50%, red 50%); */
+------------------------------------------------------------------------CZECH REPUBLIC FLAG-------------------------
+
+
+---------------------------------------------------RUSSIA FLAG------------------------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.country{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+    background-color: white;
+    flex-direction: column;
+    overflow: hidden;
+}
+.white, .blue, .red{
+    height: 100px;
+    width: 100%;
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+}
+-----------------------------------RUSSIA FLAG----------------------------------------------------------------------
+
+
+------------------------------------USA FLAG------------------------------------------------------------------------
+table{
+    height: 456px;
+    width: 800px;
+}
+table, td{
+    border: 0px solid;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+    background-color: rgb(185, 6, 6);
+}
+tr:nth-child(even){
+    background-color: white;
+}
+
+*{
+    margin: 20px;
+}
+
+.stars{
+    background-color: rgb(6, 6, 108);
+    width: 290px;
+    height: 245px;
+    margin-top: -475px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    line-height: 7px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+--------------------------------------------------USA FLAG----------------------------------------------------------

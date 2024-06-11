@@ -1,0 +1,349 @@
+body {
+    font-family: 'sans-serif';
+    align-items: center;
+}
+
+.row-container {
+    width: 50%;
+    padding: 10px;
+    margin: 50px auto;
+    border: 1px solid;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column1 {
+    float: left;
+    background-color: rgb(92, 23, 156);
+    width: 120px;
+    padding: 10px;
+    height: 200px;
+    position: relative;
+    animation-name: him1;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes him1 {
+    0% {
+        top: 0px;
+        bottom: 0px;
+    }
+    10% {
+        top: 100px;
+        bottom: 0px;
+    }
+    20% {
+        top: 0px;
+        bottom: 100px;
+    }
+    30% {
+        top: 60px;
+        bottom: 0px;
+    }
+    40% {
+        top: 0px;
+        bottom: 40px;
+    }
+    50% {
+        top: 60px;
+        bottom: 0px;
+    }
+    60% {
+        top: 0px;
+        bottom: 50px;
+    }
+    70% {
+        top: 120px;
+        bottom: 0px;
+    }
+    80% {
+        top: 0px;
+        bottom: 120px;
+    }
+    90% {
+        top: 20px;
+        bottom: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.column2 {
+    float: left;
+    background-color: rgb(175, 5, 175);
+    width: 120px;
+    padding: 10px;
+    height: 200px;
+    position: relative;
+    animation-name: him2;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes him2 {
+    0% {
+        top: 0px;
+        bottom: 0px;
+    }
+    10% {
+        top: 50px;
+        bottom: 0px;
+    }
+    20% {
+        top: 0px;
+        bottom: 60px;
+    }
+    30% {
+        top: 80px;
+        bottom: 0px;
+    }
+    40% {
+        top: 0px;
+        bottom: 20px;
+    }
+    50% {
+        top: 60px;
+        bottom: 0px;
+    }
+    60% {
+        top: 0px;
+        bottom: 70px;
+    }
+    70% {
+        top: 120px;
+        bottom: 0px;
+    }
+    80% {
+        top: 0px;
+        bottom: 110px;
+    }
+    90% {
+        top: 110px;
+        bottom: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.column3 {
+    float: left;
+    background-color: rgb(236, 75, 89);
+    width: 120px;
+    padding: 10px;
+    height: 200px;
+    position: relative;
+    animation-name: him3;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes him3 {
+    0% {
+        top: 0px;
+        bottom: 0px;
+    }
+    10% {
+        top: 10px;
+        bottom: 0px;
+    }
+    20% {
+        top: 0px;
+        bottom: 115px;
+    }
+    30% {
+        top: 60px;
+        bottom: 0px;
+    }
+    40% {
+        top: 0px;
+        bottom: 60px;
+    }
+    50% {
+        top: 100px;
+        bottom: 0px;
+    }
+    60% {
+        top: 0px;
+        bottom: 50px;
+    }
+    70% {
+        top: 3px;
+        bottom: 0px;
+    }
+    80% {
+        top: 0px;
+        bottom: 20px;
+    }
+    90% {
+        top: 10px;
+        bottom: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.column4 {
+    float: left;
+    background-color: sandybrown;
+    width: 120px;
+    padding: 10px;
+    height: 200px;
+    position: relative;
+    animation-name: him4;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes him4 {
+    0% {
+        top: 0px;
+        bottom: 0px;
+    }
+    10% {
+        top: 80px;
+        bottom: 0px;
+    }
+    20% {
+        top: 0px;
+        bottom: 10px;
+    }
+    30% {
+        top: 30px;
+        bottom: 0px;
+    }
+    40% {
+        top: 0px;
+        bottom: 40px;
+    }
+    50% {
+        top: 60px;
+        bottom: 0px;
+    }
+    60% {
+        top: 0px;
+        bottom: 50px;
+    }
+    70% {
+        top: 120px;
+        bottom: 0px;
+    }
+    80% {
+        top: 0px;
+        bottom: 105px;
+    }
+    90% {
+        top: 120px;
+        bottom: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.column5 {
+    float: left;
+    background-color: orange;
+    width: 120px;
+    padding: 10px;
+    height: 200px;
+    position: relative;
+    animation-name: him1;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+@keyframes him5 {
+    0% {
+        top: 0px;
+        bottom: 0px;
+    }
+    10% {
+        top: 60px;
+        bottom: 0px;
+    }
+    20% {
+        top: 0px;
+        bottom: 10px;
+    }
+    30% {
+        top: 20px;
+        bottom: 0px;
+    }
+    40% {
+        top: 0px;
+        bottom: 80px;
+    }
+    50% {
+        top: 60px;
+        bottom: 0px;
+    }
+    60% {
+        top: 0px;
+        bottom: 20px;
+    }
+    70% {
+        top: 120px;
+        bottom: 0px;
+    }
+    80% {
+        top: 0px;
+        bottom: 102px;
+    }
+    90% {
+        top: 25px;
+        bottom: 0px;
+    }
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.button1 {
+    border: none;
+    color: white;
+    background-color: green;
+    padding: 10px 20px;
+    text-align: center left;
+    text-decoration: none;
+    margin: 4px 100px;
+    cursor: pointer;
+}
+
+.button2 {
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px 20px;
+    text-align: center right;
+    text-decoration: none;
+    margin: 4px 100px;
+    cursor: pointer;
+}

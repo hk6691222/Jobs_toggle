@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: blue;
+}
+
+.redcolortext{
+    color: lightblue;
+    font-size: 30px;
+}
+
+.flexbox{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.orange, .white, .green{
+    height: 100px;
+    width: 100%;
+}
+.orange{
+    background-color: orange;
+}
+.white{
+    background-color: white;
+}
+.green{
+    background-color: green;
+}
+.white{
+    content: url("https://1.bp.blogspot.com/-7EEVZKrwpxI/XFk2-ey-H2I/AAAAAAAAJgM/NL2UFgJPlBsqTr5i5EidOrVCY6KfPImfACLcBGAs/s1600/ashok%2Bchakra.png");
+    height: 100px;
+    width: 130px;
+    margin: auto;
+}

@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 160px;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10px;
+}
+
+nav ul li{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.search, input{
+    height: 30px;
+    padding-right: 45px;
+}
+.fa-sharp{
+    background-color: red;
+    color: blue;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.box h1 p{
+    padding-left: 500px;
+    margin-top: 35px;
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+}
+.pics img{
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.come{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.side{
+    background-color: rgb(67, 64, 64);
+    color: white;
+    margin-top: -600px;
+    height: 50vh;
+    width: 10vw;
+    font-size: 25px;
+    padding-top: 45px;
+    border-radius: 50px;
+    padding-left: 25px;
+}
+
+.side-two{
+    float: right;
+    background-color: darkslategray;
+    color: white;
+    margin-top: -400px;
+    height: 50vh;
+    width: 12vw;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.side-three{
+    background-color: darkslategray;
+    color: white;
+    margin-top: 100px;
+    height: 40vh;
+    width: 10vw;
+    font-size: 25px;
+    padding-top: 45px;
+    border-radius: 50px;
+    padding-left: 25px;
+}
+
+.side-four{
+    float: right;
+    background-color: rgb(67, 64, 64);
+    color: white;
+    margin-top: -350px;
+    height: 40vh;
+    width: 12vw;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+footer{
+    background-color: black;
+    color: antiquewhite;
+    height: 30vh;
+    margin-top: 400px;
+}
