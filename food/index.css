@@ -1,0 +1,290 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    width: 100%;
+}
+
+.section1 {
+    background: url('./assets/images/n_.png');
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+}
+.section1 .navbar-brand {
+    font-size: 70px;
+    color: red;
+}
+
+.section1 .navbar-nav{
+   gap: 15px;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+}
+
+.section1 .navbar-nav .nav-item {
+    font-size: 28px;
+}
+.section1 .icon {
+    font-size: 30px;
+    position: sticky;
+    margin: 30px;
+    text-align: right;
+}
+#navbarNav {
+    justify-content: space-around;
+    color: #fff;
+    margin-left: 60px;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+}
+.section2 h1 {
+    font-size: 130px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+.section2 .spl-wrap{
+   position: relative;
+}
+.section2 .spl1{
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 65px;
+}
+.section2 .spl2{
+    position: absolute;
+    left: 190px;
+}
+
+.section3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -75px;
+}
+.vid{
+    width: 80%;
+    height: 600px;
+}
+img {
+    width: 100%;
+    height: 40%;
+}
+.icon {
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: black;
+    min-width: 50px;
+    text-align: center;
+}
+
+.myDiv1 {
+    font-size: 100%;
+    color: brown;
+    padding-left: 140px;
+    position: relative;
+}
+.myDiv1 p {
+    left: 50px;
+}
+
+.myDiv1 .img-wrap{
+    position: absolute;
+    right: 0;
+    bottom: -340px;
+    z-index: 9;
+}
+.myDiv1 img {
+    width: 600px;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.myDiv2 {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    color: chocolate;
+    padding-top: 40px;
+    padding-left: 120px;
+}
+.myDiv2 .img-wrap1 {
+    position: absolute;
+    bottom: -350px;
+    z-index: 10;
+    width: 700px;
+}
+
+.txt-wrap{
+    margin-bottom: 300px;
+}
+
+.txt-wrap h1{
+    font-size: 50px;
+}
+
+.myDiv2 .pic {
+    float: right;
+}
+
+.myDiv3 {
+    background-color: greenyellow;
+    color: black;
+    width: 100%;
+    padding-left: 120px;
+    position: relative;
+}
+.myDiv3 h1 {
+    font-size: 120px;
+    color: red;
+}
+.myDiv3 h2 {
+    font-size: 120px;
+}
+.myDiv3 .txt-wrap{
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+    padding-top: 340px;
+    padding-bottom: 175px;
+}
+.myDiv3 .img-wrap{
+    position: absolute;
+    right: 0px;
+    bottom: -350px;
+}
+.myDiv3 img {
+    width: 700px;
+    height: 1000px;
+}
+
+.myDiv4 {
+    background-color: red;
+    color: black;
+    width: 100%;
+}
+.myDiv4 h3 {
+    padding-top: 100px;
+    margin-left: 20px;
+}
+.myDiv4 h1 {
+    font-size: 120px;
+    color: black;
+    text-align: left;
+    margin-left: 20px;
+}
+.myDiv4 .spl-wrap2{
+    position: relative;
+ }
+ .myDiv4 .spl3{
+    color: red;
+    position: absolute;
+    top: 40px;
+    left: 65px;
+}
+.myDiv4 .spl4{
+    position: absolute;
+    left: 190px;
+}
+.myDiv4 .spl-wrap3{
+    position: relative;
+    right: 0px;
+    bottom: -200px;
+    text-align: right;
+ }
+.myDiv4 img {
+    width: 800px;
+}
+
+.right-item{
+    margin-left: 700px;
+    width: 400px;
+    height: 500px;
+    padding-bottom: 40px;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.myDiv5 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 125px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.myDiv5 .txt-wrap{
+    margin: 0;
+}
+.myDiv5 h2 {
+    font-size: 50px;
+}
+.myDiv6 {
+    width: 50%;
+    margin-left: auto;
+}
+
+.myDiv7 {
+    float: left;
+    margin-left: 15px;
+}
+.myDiv7 h1 {
+    font-size: 100px;
+    color: red;
+}
+.myDiv7 p {
+    font-size: 15px;
+    text-align: center;
+}
+.myDiv8 {
+    text-align: right;
+    margin-right: 10px;
+}
+.myDiv8 p {
+    font-size: 20px;
+}
+
+@media(max-width: 600px) {
+    body {
+        width: 100%;
+    }
+
+    .section2 h1, .myDiv4 h1{
+        font-size: 45px;
+    }
+
+    .section2 .spl1, .section2 .spl2, .myDiv2 .img-wrap1, .myDiv4 .spl3, .myDiv4 .spl4{
+       position: static;
+    }
+
+    .myDiv2 .img-wrap1, .myDiv4 img{
+        width: 100%;
+    }
+
+    .right-item, .myDiv2, .myDiv6, .footer{
+        margin: 0;
+        padding: 0;
+    }
+}
