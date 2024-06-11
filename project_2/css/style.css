@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: blueviolet;
+  color: cornsilk;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
